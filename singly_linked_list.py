@@ -1,5 +1,5 @@
 """
-Contains the template classes for link linst implemetation in python
+Contains the template classes for Singly link list implemetation in python
 """
 
 
@@ -78,6 +78,10 @@ class SingleLinkedList:
                 return current_node.data
             current_node = current_node.next
         return "Element not found in Singly Linked List"
+    
+    def delete_node(self, location):
+        
+        
 
     
 linklist = SingleLinkedList()
